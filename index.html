@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website | My Portfolio</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    
+<nav> 
+    <div class="container">
+    <div class="leftSide">
+    <a href="#hero">My Home</a>
+    </div>
+    <div class="rightSide">
+         <a href="#about">About</a>
+         <a href="#portfolio">Portfolio</a>
+  </div>
+ </div>
+</nav>
+   <section id="hero"> 
+    <div class="container">
+      <div class="leftSide">
+        <h1>
+            Hello, <br />I am <span class="accent">Jonald</span><br/> 
+            Web Developer!
+        </h1>
+        <button id="openModal" onClick="openModal()">Contact me</button>
+        <div class="social">
+        <a href="/">
+            <img src="images/linkedin.svg" alt="Linkedin Logo"/>        
+           </a>
+         <a href="/">
+            <img src="images/github.svg" alt="Github Logo"/>
+           </a>
+        <a href="/">
+            <img src="images/facebook.svg" alt="Facebook Logo"/>
+           </a>
+        <a href="/">
+            <img src="images/messenger.svg" alt="Messenger Logo"/>
+           </a>
+        <a href="/">
+            <img src="images/telegram.svg" alt="Telegram Logo"/> 
+           </a>
+        </div>
+        </div>
+        <div class="rightSide">
+        <div class="outer">
+            <img src="images/prof-pic.png" alt="Profile Picture"/>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <section id="about">
+     <div class="container">
+        <h2>About me</h2>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+            aliquip ex ea commodo consequat. Duis aute irure dolor in 
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+            culpa qui officia deserunt mollit anim id est laborum."
+        </p>
+     </div>
+    </section>
+    <section id="portfolio">
+       <div class="container">
+        <h2>My Project</h2>
+        <div class="projects">
+                <div class="outer">
+            <img src="images/Screenshot 2025-03-22 211234.png" alt="Project 1" />
+            <img src="images/Screenshot 2025-04-07 150313.png" alt="Project 2" />
+            <img src="images/Screenshot 2025-03-22 173022.png" alt="Project 3" />
+            <img src="images/Screenshot 2025-05-29 114916.png" alt="Project 4" />
+            <img src="images/Screenshot 2025-05-26 152144.png" alt="Project 5" />
+            <img src="images/Screenshot 2025-04-09 094148.png" alt="Project 6" />
+        </div>
+       </div>
+       </div>
+       </section>
+
+       <footer>My Portfolio © 2025 </footer>
+
+       <div id="modalOuter" class="closeModal">
+       <div class="container">
+        <h2>Contact Details</h2>
+        <hr />
+        <p><strong>Name:</strong>Jonald Bataller</p>
+        <p><strong>Email:</strong>batallerjonald@gmail.com</p>
+        <p><strong>Mobile No:</strong>+63 916 101 0390</p>
+        <p><strong>Address:</strong>Dasmariñas,Cavite</p>
+        <p><strong>CV:</strong><a href="cv.pdf" download>Download my CV</a></p>
+        <div class="xButton" onclick="closeModal()">
+                <span></span>
+                <span></span>
+           </div>
+         </div>
+       </div>
+    <script src="main.js"></script>
+</body>
+</html>
